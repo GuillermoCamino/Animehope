@@ -79,7 +79,7 @@
                     </tbody>
                 </table>
                 <h4><span class="badge bg-success">Total: <?php echo $precio_total ?>€</span></h4>
-                <a href="http://localhost/Animehope/Animehope/public/clientes/direccion.php"><button class="btn btn-primary">Pagar</button></a>
+                <a href="http://localhost/Animehope/public/clientes/direccion.php"><button class="btn btn-primary">Pagar</button></a>
             </div>
         </div>
     </div>

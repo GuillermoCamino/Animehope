@@ -67,7 +67,7 @@
                     $_SESSION["usuario"]=$usuario;
                     $_SESSION["rol"]=$rol;
 
-                    header("location: http://localhost/Animehope/Animehope/public/index.php");
+                    header("location: http://localhost/Animehope/public/index.php");
                 }else{
                         ?>
                             <div class="alerta">

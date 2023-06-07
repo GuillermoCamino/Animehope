@@ -14,21 +14,21 @@
                 <img src="../../resources/images/AnimehopeIcon.png" alt="Logo" width="40" height="50">-->
 
                 <a class="nav-link active" aria-current="page"
-                    href="http://localhost/Animehope/Animehope/public/">Inicio</a>
+                    href="http://localhost/Animehope/public/">Inicio</a>
 
                 <?php
           if ($_SESSION["rol"] == "administrador") {
         ?>
                 <a class="nav-link"
-                    href="http://localhost/Animehope/Animehope/public/figuras/insertar_figura.php">Figuras</a>
+                    href="http://localhost/Animehope/public/figuras/insertar_figura.php">Figuras</a>
                 <a class="nav-link"
-                    href="http://localhost/Animehope/Animehope/public/clientes/insertar_cliente.php">Clientes 
+                    href="http://localhost/Animehope/public/clientes/insertar_cliente.php">Clientes 
                 <?php
           }
         ?>
-                <a class="nav-link" href="http://localhost/Animehope/Animehope/public/compras/comprar_figura.php">Nueva
+                <a class="nav-link" href="http://localhost/Animehope/public/compras/comprar_figura.php">Nueva
                     compra</a>
-                <a class="nav-link" href="http://localhost/Animehope/Animehope/public/clientes/mis_compras.php">Mis
+                <a class="nav-link" href="http://localhost/Animehope/public/clientes/mis_compras.php">Mis
                     compras</a>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -39,19 +39,19 @@
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item"
-                                href="http://localhost/Animehope/Animehope/public/figuras/marcas/banpresto.php">Banpresto</a>
+                                href="http://localhost/Animehope/public/figuras/marcas/banpresto.php">Banpresto</a>
                         </li>
-                        <li><a class="dropdown-item" href="http://localhost/Animehope/Animehope/public/figuras/marcas/noodlecupholder.php">NoodleCupHolder</a></li>
-                        <li><a class="dropdown-item" href="http://localhost/Animehope/Animehope/public/figuras/marcas/squarenix.php">squarenix</a></li>
-                        <li><a class="dropdown-item" href="http://localhost/Animehope/Animehope/public/figuras/marcas/nendoroid.php">nendoroid</a></li>
-                        <li><a class="dropdown-item" href="http://localhost/Animehope/Animehope/public/figuras/marcas/goodsmilecompany.php">goodsmilecompany</a></li>
-                        <li><a class="dropdown-item" href="http://localhost/Animehope/Animehope/public/figuras/marcas/antiguas.php">Antiguas</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Animehope/public/figuras/marcas/noodlecupholder.php">NoodleCupHolder</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Animehope/public/figuras/marcas/squarenix.php">squarenix</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Animehope/public/figuras/marcas/nendoroid.php">nendoroid</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Animehope/public/figuras/marcas/goodsmilecompany.php">goodsmilecompany</a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Animehope/public/figuras/marcas/antiguas.php">Antiguas</a></li>
 
                     </ul>
                 </li>
                 </ul>
                 <a class="nav-link"
-                    href="http://localhost/Animehope/Animehope/public/desconectarse.php">Desconectarse</a>
+                    href="http://localhost/Animehope/public/desconectarse.php">Desconectarse</a>
                 <a class="nav-link" href="">Bienvenid@ <?php echo $_SESSION["usuario"] ?></a>
             </div>
         </div>
