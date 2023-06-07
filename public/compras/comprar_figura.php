@@ -77,7 +77,7 @@
                         <tr>
                             <td><?php echo $fila["nombre"] ?></td>
                             <td>
-                                <img width="50" height="60" src="../..<?php echo $fila["imagen"] ?>">
+                                <img width="50" height="60" src="../<?php echo $fila["imagen"] ?>">
                             </td>
                             <td><?php echo $fila["precio"] ?></td>
                             <td><?php echo $fila["anio"] ?></td>

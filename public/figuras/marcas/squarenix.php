@@ -28,7 +28,7 @@
                         <tr>
                             <th>Nombre</th>
                             <th></th>
-                            <th>Tamanio</th>
+                            <th>Tamaño</th>
                             <th>Precio</th>
                             <th>Marca</th>
                             <th></th>
@@ -51,7 +51,7 @@
                                         <tr>
                                             <td><?php echo $nombre?></td>
                                             <td>
-                                                <img width="50" height="70" src="../../..<?php echo $imagen?>">
+                                                <img width="50" height="70" src="../../<?php echo $imagen?>">
                                             </td>
                                             <td><?php echo $tamanio?></td>
                                             <td><?php echo $precio?></td>

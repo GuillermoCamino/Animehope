@@ -42,7 +42,7 @@
                                     while ($fila = $resultado -> fetch_assoc()){
                                         $imagen = $fila["imagen"];
                                     }
-                                    unlink("../.." . $imagen);
+                                    unlink("../" . $imagen);
                                 }
 
                                 $sql = " DELETE FROM figuras WHERE id = '$id'";
@@ -74,7 +74,7 @@
                                         <tr>
                                             <td><?php echo $nombre?></td>
                                             <td>
-                                                <img width="50" height="70" src="../..<?php echo $imagen?>">
+                                                <img width="50" height="70" src="../<?php echo $imagen?>">
                                             </td>
                                             <td><?php echo $tamanio?></td>
                                             <td><?php echo $precio?></td>

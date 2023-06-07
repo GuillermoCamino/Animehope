@@ -58,7 +58,7 @@
                 </form>
             </div>
             <div class="col-4">
-            <img width="200" height="300" src="../..<?php echo $imagen ?>">
+            <img width="200" height="300" src="../<?php echo $imagen ?>">
             </div>
         </div>
     </div>

@@ -45,7 +45,7 @@
                                     while ($fila = $resultado -> fetch_assoc()){
                                         $imagen = $fila["imagen"];
                                     }
-                                    unlink("../.." . $imagen);
+                                    unlink("../" . $imagen);
                                 }
 
                                 $sql = "DELETE FROM clientes WHERE id = '$id'";

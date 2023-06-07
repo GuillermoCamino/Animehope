@@ -48,7 +48,7 @@
     <?php
      session_start();
      if(!isset($_SESSION["usuario"])){
-         header("location: http://localhost/Animehope/Animehope/public/iniciar_sesion.php");
+         header("location: http://localhost/Animehope/public/iniciar_sesion.php");
      }else{
      echo "<p> Has iniciado sesión ". $_SESSION["usuario"]."</p>"; 
      }

@@ -98,10 +98,10 @@
 
         </div>
         <h2>Figuras destacadas</h2>
-            <a href="./figuras/mostrar_figura.php?id=24"><img src="../resources/images/figuras/figuraGojo2.png" class="imagen" alt="figura gojo"></a>
-            <a href="./figuras/mostrar_figura.php?id=25"><img src="../resources/images/figuras/figuraSailorMoon1.png" class="imagen" alt="figura sailon moon">
-            <a href="./figuras/mostrar_figura.php?id=23"><img src="../resources/images/figuras/mikubacterial1.png" class="imagen" alt="figura miku"></a>
-            <a href="./figuras/mostrar_figura.php?id=26"><img src="../resources/images/figuras/figurapower1.png" class="imagen" alt="figura power"></a>
+            <a href="./figuras/mostrar_figura.php?id=43"><img src="../resources/images/figuras/figuraGojo2.png" class="imagen" alt="figura gojo"></a>
+            <a href="./figuras/mostrar_figura.php?id=46"><img src="../resources/images/figuras/figuraSailorMoon1.png" class="imagen" alt="figura sailon moon">
+            <a href="./figuras/mostrar_figura.php?id=44"><img src="../resources/images/figuras/mikubacterial1.png" class="imagen" alt="figura miku"></a>
+            <a href="./figuras/mostrar_figura.php?id=45"><img src="../resources/images/figuras/figurapower1.png" class="imagen" alt="figura power"></a>
     </div>
     <br><br><br>
     <br>

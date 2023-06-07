@@ -69,7 +69,7 @@
             echo "<p>No se ha podido mover el fichero</p>";
         }
         if (empty($imagen)){
-            $imagen='/resources/images/avatarPredeterminado.jpg';
+            $imagen='/resources/images/avatarpredeterminado.jpg';
 
         }else{
             $imagen = "/resources/images/avatar/";   

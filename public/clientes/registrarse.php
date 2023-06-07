@@ -9,6 +9,10 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>registro</title>
     <style>
+    h1{
+        display:flex;
+        justify-content:center;
+    }
     .alerta {
         margin-left:30%;
         margin-bottom: 430px;
